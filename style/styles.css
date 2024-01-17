@@ -233,20 +233,75 @@ main {
   font-style: normal;
   font-weight: 400;
 }
-.social-media
-{
+.social-media {
   text-align: center;
   padding-top: 1rem;
 }
-.line{
+.line {
   width: 60%;
   background: rgba(3, 3, 4, 0.05);
   height: 0.2rem;
   margin: 2rem auto;
 }
-.rights{
+.rights {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+/* news later section */
+.newsletter {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 15px;
+}
+.newsletter-heading {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 1rem;
+}
+.newsletter-heading h1 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.newsletter-paragraph {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.newsletter-input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  width: 393px;
+  height: 52px;
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem;
+  border: none;
+}
+.news-button {
+  border-radius: 8px;
+  background: #ff5400;
+  width: 395px;
+  height: 52px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 1rem;
+  border: none;
+}
+.news-padding {
+  padding: 1rem;
 }
 
 /* responsive device */
@@ -322,7 +377,27 @@ main {
     font-weight: 400;
   }
   /* footer section */
-  .mobile1{
+  .mobile1 {
     padding: 1rem;
+  }
+  /* news letter */
+  .newsletter{
+
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .newsletter-input{
+    width: 89.2%;
+    
+  }
+  .news-button{
+    width: 89.2%;
+
+  }
+  .news-padding{
+    padding: 0.5rem;
+  }
+  .newsletter-heading h1{
+    font-size: 1rem;
   }
 }
