@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 
 /* shared width */
-body {
+header,
+main {
   width: 89.25%;
   max-width: 1170px;
   font-family: "Mulish", sans-serif;
@@ -205,6 +206,48 @@ body {
   display: grid;
   justify-content: center;
 }
+/* footer section */
+.footer-container {
+  width: 100%;
+  background: rgba(19, 19, 24, 0.05);
+  /* height: 100%; */
+}
+.heading-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 10px;
+  align-items: center;
+  padding-top: 4rem;
+}
+.heading-image-title {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-paragraph {
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.social-media
+{
+  text-align: center;
+  padding-top: 1rem;
+}
+.line{
+  width: 60%;
+  background: rgba(3, 3, 4, 0.05);
+  height: 0.2rem;
+  margin: 2rem auto;
+}
+.rights{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 
 /* responsive device */
 
@@ -277,6 +320,9 @@ body {
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;
-    
+  }
+  /* footer section */
+  .mobile1{
+    padding: 1rem;
   }
 }
